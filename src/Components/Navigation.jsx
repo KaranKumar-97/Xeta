@@ -1,10 +1,20 @@
 import React from "react";
 import { IoSearch } from "react-icons/io5";
 import { LuBell } from "react-icons/lu";
+import { IoArrowBack } from "react-icons/io5";
+import { NavLink } from "react-router-dom";
 const Navigation = () => {
   return (
     <div className="bg-white w-full py-3 z-5">
       <div className="flex justify-between w-full max-w-[90%] mx-auto">
+        <NavLink to="/">
+          {" "}
+          <div className="flex items-center">
+            <IoArrowBack size={30} />
+            <p className="text-blue-900 font-semibold text-xl ml-[8%]">Back</p>
+          </div>
+        </NavLink>
+
         <div className="text-blue-900 font-bold text-xl ml-[8%]">Dashboard</div>
 
         <div>
