@@ -18,6 +18,7 @@ npm run dev
 
 # Technologies Used
 - React.js
+- Tailwind CSS
 - React Router
 - Flowbite
 - Material UI (MUI for graphs and Calendar)
