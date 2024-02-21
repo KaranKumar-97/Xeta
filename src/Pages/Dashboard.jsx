@@ -7,7 +7,6 @@ import OneRepMax from "../Components/OneRepMax";
 import Performer from "../Components/Performer";
 import Calories from "../Components/Calories";
 import LineChart from "../Components/linechart";
-import Abcd from "../Components/Abcd";
 import Calendar from "../Components/Calendar";
 
 const Dashboard = () => {
@@ -21,7 +20,6 @@ const Dashboard = () => {
             <HeighestWeight />
             <OneRepMax />
             <LineChart />
-
           </div>
           <div className="flex">
             <Accuracy />
