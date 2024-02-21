@@ -22,7 +22,6 @@ const Dashboard = () => {
             <OneRepMax />
             <LineChart />
 
-            {/* <Abcd /> */}
           </div>
           <div className="flex">
             <Accuracy />
