@@ -3,7 +3,7 @@
 This Project Consist of two Projects :
 - Dashboard Page
 - FitSnap Landing Page
-# [Live Deployment](xeta.vercel.app)
+# [Live Deployment](https://xeta.vercel.app)
 # Installation
 - Run npm install to install dependencies.
 ```
