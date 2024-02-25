@@ -11,22 +11,25 @@ import Calendar from "../Components/Calendar";
 
 const Dashboard = () => {
   return (
-    <div className="bg-gray-200 w-screen h-full">
-      <Navigation />
+    <div className="bg-gray-200 w-screen  h-full">
+      <div className="mx-auto">
+        <Navigation />
+      </div>
+
       <div className="flex">
         <Sidebar />
         <div className="flex flex-col">
-          <div className="flex">
+          <div className="flex flex-col lg:flex-row">
             <HeighestWeight />
             <OneRepMax />
             <LineChart />
           </div>
-          <div className="flex">
+          <div className="flex flex-col lg:flex-row">
             <Accuracy />
             <Performer />
           </div>
 
-          <div className="flex">
+          <div className="flex flex-col lg:flex-row">
             <Calendar />
             <Calories />
           </div>
