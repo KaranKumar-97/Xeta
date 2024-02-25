@@ -7,7 +7,7 @@ import { DateCalendar } from "@mui/x-date-pickers/DateCalendar";
 
 const Calendar = () => {
   return (
-    <div className="bg-white flex rounded-xl mt-5 mx-5">
+    <div className="bg-white flex flex-col lg:flex-row rounded-xl mt-5 mx-5">
       <div>
         <p className="text-blue-900 font-bold px-6 my-2">
           Upcoming Competitions

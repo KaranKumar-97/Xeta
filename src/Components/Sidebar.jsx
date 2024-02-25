@@ -7,7 +7,7 @@ import trackprogress from "../assets/trackprogress.png";
 
 const Sidebar = () => {
   return (
-    <div className="bg-white flex flex-col py-8 px-4  text-xs gap-7">
+    <div className="bg-white hidden lg:flex flex-col py-8 px-4 text-xs gap-7">
       <button className="bg-blue-700 flex items-center gap-2 text-white py-2 pl-2 pr-12 mx-auto rounded-md">
         <img src={pie} className="w-[100%]" alt="" />
         Dashbaord

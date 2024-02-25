@@ -5,8 +5,8 @@ import { IoArrowBack } from "react-icons/io5";
 import { NavLink } from "react-router-dom";
 const Navigation = () => {
   return (
-    <div className="bg-white w-full py-3 z-5">
-      <div className="flex justify-between w-full max-w-[90%] mx-auto">
+    <div className="bg-white w-screen border py-3 z-5">
+      <div className="flex justify-between flex-col gap-5 lg:flex-row max-w-[90%] mx-auto">
         <NavLink to="/">
           {" "}
           <div className="flex items-center">
@@ -17,17 +17,17 @@ const Navigation = () => {
 
         <div className="text-blue-900 font-bold text-xl ml-[8%]">Dashboard</div>
 
-        <div>
+        <div className="">
           <IoSearch className="absolute m-3" />
           <input
             type="search"
             id="search"
-            class="bg-gray-200 px-10 py-2 rounded-md "
+            class="bg-gray-200 px-[15%] py-2 rounded-md "
             placeholder="Search here..."
           />
         </div>
 
-        <div className="flex items-center">
+        <div className="flex items-center ml-14">
           <label for="country">
             <img
               src="https://upload.wikimedia.org/wikipedia/commons/7/7b/India_flag_300.png"
